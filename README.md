@@ -1,14 +1,19 @@
 # bigvim
 
-### Requires NVIM v0.8.0
+## Requires NVIM v0.8.0
 
 ![image](https://user-images.githubusercontent.com/486382/143928606-63e40713-01e6-42e0-b328-7c1f6d01b587.png)
 
+### Install ripgrep
 
+```bash
+brew install ripgrep
+```
 
 ## Install
+
 ```bash
-git clone https://github.com/ruanyl/bigvim.git ~/.vim
+git clone https://github.com/lucduong/bigvim.git ~/.vim
 mkdir -p ~/.config/nvim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/init.vim ~/.config/nvim/init.vim
@@ -21,19 +26,18 @@ curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
 :PlugInstall
 ```
 
-### Install ripgrep
-```bash
-brew install ripgrep
-```
-
 ## Find files `<C-p>`
+
 ![image](https://user-images.githubusercontent.com/486382/143928011-ef3e7521-60b5-47dd-8bc1-9cb0e27f9cc3.png)
 
 ## Find buffers `,b`
+
 ![image](https://user-images.githubusercontent.com/486382/143928204-070c1d10-02f4-47a2-9b7e-41ace10e58d4.png)
 
 ## Find recent files `,m`
+
 ![image](https://user-images.githubusercontent.com/486382/143928749-f85f770c-e798-4441-a621-30cfae3fba94.png)
 
 ## File explorer `,e`
+
 ![image](https://user-images.githubusercontent.com/486382/143928853-6e97d8ff-3adf-4748-84e3-d144c2a36a5b.png)
